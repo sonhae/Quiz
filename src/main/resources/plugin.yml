@@ -1,0 +1,12 @@
+main: org.example.Main
+name: TestPlugin
+version: '1.0'
+description: A test plugin
+permissions:
+  quiz.quiz:
+    default: true
+  quiz.quizadmin:
+    default: op
+commands:
+  quizadmin:
+  qcb:

@@ -1,0 +1,27 @@
+vanilla:
+  reward: # SigReward ( SigLib )
+    COIN: 10000
+    SHARD: 100
+  questions:
+    1:
+      question: '충전된 크리퍼는 어떤 상황에서 생성될까요?'
+      choices:
+        correct: '크리퍼가 번개를 맞으면 생성됩니다'
+        wrong:
+          - '크리퍼가 물에 빠지면 생성됩니다'
+          - '크리퍼와 사랑에 빠지면 생성됩니다'
+          - '크리퍼를 죽이면 일정 확률로 생성됩니다'
+
+common_sense:
+  reward: # SigReward ( SigLib )
+    COIN: 10000
+    SHARD: 100
+  questions:
+    1:
+      question: '영국의 수도는 어디일까요?'
+      choices:
+        correct: '런던'
+        wrong:
+          - '에딘버러'
+          - '파리'
+          - '서울'
